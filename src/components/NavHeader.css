@@ -1,0 +1,74 @@
+.sd.header {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.sd.nav {
+    align-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.nav-container {
+    align-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    margin: 0px 20px 0px 20px;
+    width: 1280px;
+    max-width: calc(100% - 40px);
+}
+
+.nav-header {
+    color: #000000;
+    flex: none;
+    font-family: 'Courier';
+    font-size: 32px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1;
+    text-align: left;
+    width: 33%;
+    max-width: 33%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    overflow: visible;
+    word-break: break-word;
+    word-wrap: anywhere;
+    text-decoration: none;
+}
+
+.nav-item {
+    color: #000000;
+    font-family: 'Courier';
+    font-size: 18px;
+    font-weight: 500;
+    height: auto;
+    line-height: 1.4;
+    margin: 0px 40px 0px 0px;
+    text-align: center;
+    transition-timing-function: ease-in-out;
+    width: auto;
+    max-width: calc(100% - 40px);
+    justify-content: center;
+    text-decoration: none;   
+}

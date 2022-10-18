@@ -1,0 +1,76 @@
+.post-container.border {
+    border-bottom: 2px solid #000;
+    margin: 0px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+.post-article {
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-date {
+    color: #000000;
+    font-family: 'Courier';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 20px 0px 10px 0px;
+    text-align: left;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+
+.article-title {
+    color: #000000;
+    font-family: 'Courier';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0px 0px 20px 0px;
+    text-align: left;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.latest-article-body {
+    color: #000000;
+    font-family: 'Courier';
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0px 0px 20px 0px;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.read-more-button {
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.read-more {
+    color: #000000;
+    font-family: 'Courier';
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    line-height: 1.4;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: center;
+    text-decoration: none;
+}
