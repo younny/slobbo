@@ -9,20 +9,20 @@ import './LatestPostItem.css'
 const LatestPostItem = ({ nothumb, post }) => {
     return (
         <div className="post-container border">
-            {!nothumb ? <Link className="post-thumbnail" to="/posts" style={{
+            {!nothumb ? <Link className="post-thumbnail" to={`/posts/${post.id}`} style={{
                 backgroundImage: `url(${post.thumbnail})`
             }}
             /> : null}
             <div className="post-article">
                 <p className="article-date text sd">{formatDate(post.updatedAt)}</p>
-                <Link className="article-title text sd">{post.title}</Link>
+                <Link className="article-title text sd" to={`/posts/${post.id}`}>{post.title}</Link>
                 <LinesEllipsis className="latest-article-body" text={post.body}
                             maxLine="3"
                             ellipsis="..."
                             trimRight
                             basedOn='letters'/>
                 <div className="read-more-button">
-                    <Link className="read-more text sd">Read More..</Link>
+                    <Link className="read-more text sd" to={`/posts/${post.id}`}>Read More..</Link>
                 </div>
             </div>
         </div>

@@ -37,6 +37,11 @@ class App extends Component {
                   path="/posts" 
                   element={<PostPage posts={this.props.posts} />} 
                 />
+                <Route
+                  exact 
+                  path="/posts/:id"
+                  element={<PostPage posts={this.props.posts} />}
+                />
               </Routes>
             </div>
           </div>
