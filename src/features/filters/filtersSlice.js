@@ -1,13 +1,15 @@
+import { UPDATE_FILTER } from "../../actions/types"
+
 const initialState = {
-    status: 'All'
+    postFilter: 'Daily'
 }
 
 export default function filtersReducer(state = initialState, action) {
     switch (action.type) {
-        case 'filters/filterChanged': {
+        case UPDATE_FILTER: {
             return {
                 ...state,
-                status: action.payload
+                postFilter: action.payload
             }
         }
         default:

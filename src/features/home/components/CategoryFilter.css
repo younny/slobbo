@@ -1,0 +1,20 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#post-cat-list {
+  padding: 5px;
+  border-style: none;
+  background-color: transparent;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0px 0px 20px 0px;
+  cursor: pointer;
+  appearance: none;
+  outline: transparent;
+}

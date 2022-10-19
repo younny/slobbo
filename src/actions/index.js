@@ -2,8 +2,18 @@ import {
     CREATE_POST,
     EDIT_POST,
     DELETE_POST,
-    LOAD_POSTS
+    LOAD_POSTS,
+    UPDATE_FILTER
 } from "./types";
+
+export const updateFilter = (filter) => {
+    return function (dispatch, getState) {
+        dispatch({
+            type: UPDATE_FILTER,
+            payload: filter
+        })
+    }
+}
 
 export const loadPosts = () => {
     return function (dispatch, getState) {
