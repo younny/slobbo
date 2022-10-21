@@ -1,368 +1,367 @@
-.sd.HomePage {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 100%;
-    justify-content: flex-start;
-    margin: 0 0 0 0;
-    opacity: 1;
-    padding: 0 0 0 0;
-    width: 100%;
-    max-width: 100%;
+#HomePage {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: flex-start;
+  margin: 0px;
+  opacity: 1;
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .sd.banner {
-    align-content: center;
-    align-items: center;
-    background: #EEEEEE;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 420px;
-    justify-content: center;
-    margin: 20px 0px 20px 0px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 0px 0px 0px;
-    width: 1500px;
-    max-width: 100%;
+  align-content: center;
+  align-items: center;
+  background: #eeeeee;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 420px;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0px 0px 0px;
+  width: 1500px;
+  max-width: 100%;
 }
 
 .sd.contents-container {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    margin: 40px 20px 50px 20px;
-    width: 1280px;
-    max-width: calc(100% - 40px);
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 40px 20px 50px 20px;
+  width: 1280px;
+  max-width: calc(100% - 40px);
 }
 
 .sd.left-columns {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    flex: none;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 0px;
-    width: 70%;
-    max-width: 70%;
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px;
+  width: 70%;
+  max-width: 70%;
 }
 
 .left-side {
-    margin: 0px 40px 0px 0px;
-    max-width: calc(40% - 40px);
+  margin: 0px 40px 0px 0px;
+  max-width: calc(40% - 40px);
 }
 
 .left-side-content {
-    align-content: flex-start;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin: 35px 0px 0px 0px;
-    width: 960px;
-    max-width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 35px 0px 0px 0px;
+  width: 960px;
+  max-width: 100%;
 }
 
 .sd.right-side {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    border-left: 2px solid #000000;
-    border-right: 2px solid #000000;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    padding: 0px 0px 0px 0px;
-    width: 60%;
-    max-width: 60%;
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  width: 60%;
+  max-width: 60%;
 }
 
 .sd.right-side-content {
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 0px 40px 0px 40px;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px 40px 0px 40px;
 }
 
 .sd.right-column {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    margin: 0px 0px 0px 40px;
-    padding: 0px 0px 0px 0px;
-    width: calc(30% - 40px);
-    max-width: calc(30% - 40px);
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 0px;
+  width: calc(30% - 40px);
+  max-width: calc(30% - 40px);
 }
 
 .sd.right-column-container {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: auto;
-    justify-content: flex-start;
-    margin: 0px 0px 0px 40px;
-    width: calc(30% - 40px);
-    max-width: calc(30% - 40px);
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 0px 0px 0px 40px;
+  width: calc(30% - 40px);
+  max-width: calc(30% - 40px);
 }
 
 .sd.right-column-top {
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 0px;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px;
 }
 
 .post-container {
-    align-content: flex-start;
-    align-items: flex-start;
-    background: transparent;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px 0px 30px 0px;
-    width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  background: transparent;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0px 0px 30px 0px;
+  width: 100%;
 }
 
 .sd.news-column {
-    align-content: flex-start;
-    align-items: flex-start;
-    border-radius: 17px;
-    justify-content: flex-start;
-    margin: 35px 0px 0px 0px;
-    width: 960px;
-    max-width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  border-radius: 17px;
+  justify-content: flex-start;
+  margin: 35px 0px 0px 0px;
+  width: 960px;
+  max-width: 100%;
 }
 
 .news-container {
-    align-content: flex-start;
-    align-items: flex-start;
-    border-bottom: 2px solid #000;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px 0px 30px 0px;
-    padding: 0px 0px 30px 0px;
-    width: 100%;
-    max-width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px solid #000;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .sd.news-container-contents {
-    align-content: flex-start;
-    align-items: flex-start;
-    flex: 1;
-    margin: 0px 0px 0px 0px;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+  margin: 0px 0px 0px 0px;
 }
 
 .news-container-body {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 26px 0px 0px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 26px 0px 0px 0px;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
 }
 
- .news-container-header {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0px 0px 0px 0px;
-    text-align: left;
-    justify-content: flex-start;
+.news-container-header {
+  color: #000000;
+  font-family: "Courier";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .news-container-header.sub {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
 }
 
-
 .category-header {
-    border-bottom: 2px solid #000;
-    color: #000000;
-    flex: none;
-    flex-direction: row;
-    font-family: 'Courier';
-    font-size: 18px;
-    font-weight: 700;
-    height: auto;
-    line-height: 1.4;
-    padding: 0px 0px 20px 0px;
-    text-align: left;
-    width: 100%;
-    max-width: 100%;
-    justify-content: flex-start;
+  border-bottom: 2px solid #000;
+  color: #000000;
+  flex: none;
+  flex-direction: row;
+  font-family: "Courier";
+  font-size: 18px;
+  font-weight: 700;
+  height: auto;
+  line-height: 1.4;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  justify-content: flex-start;
 }
 
 .category-header.noborder {
-    border-bottom: 0px solid #000;
-    margin: 0px 0px 20px 0px;
-    padding: 0px 0px 0px 0px;
+  border-bottom: 0px solid #000;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .category-header.small {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    width: auto;
-    justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: auto;
+  justify-content: center;
 }
 
 .category-header.big {
-    font-size: 40px;
-    font-weight: 500;
-    height: auto;
-    line-height: 1;
-    margin: 20px 0px 35px 0px;
-    width: auto;
+  font-size: 40px;
+  font-weight: 500;
+  height: auto;
+  line-height: 1;
+  margin: 20px 0px 35px 0px;
+  width: auto;
 }
 
 .post-thumbnail {
-    flex: none;
-    height: 300px;
-    width: 100%;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
+  flex: none;
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-article {
-    align-content: flex-start;
-    align-items: flex-start;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .article-date {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    margin: 20px 0px 10px 0px;
-    text-align: left;
-    text-decoration: none;
-    justify-content: flex-start;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 20px 0px 10px 0px;
+  text-align: left;
+  text-decoration: none;
+  justify-content: flex-start;
 }
 
 .article-title {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 0px 0px 20px 0px;
-    text-align: left;
-    justify-content: flex-start;
-    text-decoration: none;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  justify-content: flex-start;
+  text-decoration: none;
 }
 
 .article-body {
-    color: #000000;
-    font-family: 'Courier';
-    text-align: left;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 0px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
+  color: #000000;
+  font-family: "Courier";
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  justify-content: flex-start;
 }
 
 .read-more-button {
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 0px;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px;
 }
 
 .read-more {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 16px;
-    font-weight: 700;
-    height: auto;
-    line-height: 1.4;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-    width: auto;
-    max-width: 100%;
-    justify-content: center;
-    text-decoration: none;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 16px;
+  font-weight: 700;
+  height: auto;
+  line-height: 1.4;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .about-header {
-    color: #000000;
-    font-family: 'Courier';
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 0px 0px 20px 0px;
-    text-align: left;
-    justify-content: flex-start;
+  color: #000000;
+  font-family: "Courier";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .about-body {
-    color: #000000;
-    font-family: 'Courier New';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 0px 0px 20px 0px;
-    text-align: left;
-    width: auto;
-    max-width: 100%;
-    justify-content: flex-start;
+  color: #000000;
+  font-family: "Courier New";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  justify-content: flex-start;
 }
 
 .sd.about-section {
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 0px;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px;
 }
 
 .profile {
-    display: flex;
-    flex: none;
-    width: 100%;
-    height: 250px;
-    margin: 0px 0px 30px 0px;
-    max-width: 100%;
-    background-repeat: no-repeat;
+  display: flex;
+  flex: none;
+  width: 100%;
+  height: 250px;
+  margin: 0px 0px 30px 0px;
+  max-width: 100%;
+  background-repeat: no-repeat;
 }

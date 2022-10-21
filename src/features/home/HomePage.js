@@ -3,25 +3,37 @@ import { Link } from "react-router-dom"
 import { connect } from "react-redux"
 
 import { updateFilter } from "../../actions"
-import LatestPostItem from "../posts/components/LatestPostItem"
 import { sortByDate } from "../../utils"
-
-import "./HomePage.css"
+import LatestPostItem from "../posts/components/latestpostitem"
 import CategoryFilter from "./components/CategoryFilter"
 
+import "./HomePage.css"
+
+const FILTER_ALL = 4
 const categories = [
   { id: 0, name: "Yoga" },
   { id: 1, name: "Programming" },
   { id: 2, name: "Daily" },
   { id: 3, name: "Workshop" },
+  { id: 4, name: "All" },
 ]
 
 class HomePage extends Component {
+  getFilteredPosts(posts) {
+    if (this.props.filter == FILTER_ALL) {
+      return sortByDate(posts).slice(0, 2)
+    } else {
+      return sortByDate(
+        posts.filter((post) => post.category == this.props.filter)
+      ).slice(0, 2)
+    }
+  }
+
   render() {
-    const posts = this.props.posts
+    const posts = this.props.posts.posts
 
     return (
-      <div className="HomePage sd">
+      <div id="HomePage" className="sd">
         <div
           className="banner sd"
           style={{
@@ -32,16 +44,14 @@ class HomePage extends Component {
           <div className="left-columns sd">
             <div className="left-side">
               <CategoryFilter
+                selected={this.props.filter}
                 categories={categories}
                 onFilterChange={this.props.updateFilter}
               />
-              {/* <h5 className="category-header">{filter.toUpperCase()}</h5> */}
               <div className="left-side-content">
-                {posts
-                  .filter((post) => post.category == this.props.filter)
-                  .map((post) => (
-                    <LatestPostItem key={post.id} post={post} />
-                  ))}
+                {this.getFilteredPosts(posts).map((post) => (
+                  <LatestPostItem key={post.id} post={post} />
+                ))}
               </div>
             </div>
             <div className="right-side sd">
@@ -115,7 +125,9 @@ class HomePage extends Component {
 }
 
 const mapStateToProps = (state) => {
+  console.log(state)
   return {
+    posts: state.posts,
     filter: state.filters.postFilter,
   }
 }

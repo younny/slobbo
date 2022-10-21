@@ -2,7 +2,7 @@ import React from "react"
 
 import "./CategoryFilter.css"
 
-const CategoryFilter = ({ categories, onFilterChange }) => {
+const CategoryFilter = ({ selected, categories, onFilterChange }) => {
   const onSelect = (event) => onFilterChange(event.target.value)
 
   return (
@@ -12,10 +12,15 @@ const CategoryFilter = ({ categories, onFilterChange }) => {
           name="post-category-list"
           id="post-cat-list"
           onChange={onSelect}
+          defaultValue={0}
         >
           {categories.map((cat, i) => {
             return (
-              <option key={i} value={cat.id}>
+              <option
+                key={i}
+                value={cat.id}
+                selected={selected == cat.id ? "selected" : ""}
+              >
                 {cat.name}
               </option>
             )

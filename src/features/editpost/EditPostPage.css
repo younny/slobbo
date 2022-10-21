@@ -1,0 +1,77 @@
+#EditPostPage {
+  align-content: flex-start;
+  align-items: flex-start;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 50px 20px 50px 20px;
+  width: 1280px;
+  max-width: calc(100% - 40px);
+}
+
+#edit-form {
+  width: 100%;
+  max-width: 100%;
+}
+
+#form-container {
+  align-items: flex-start;
+  width: 100%;
+}
+
+#form-group {
+  width: 100%;
+  flex-direction: row;
+  margin: 10px 0px 10px 0px;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+#cat-label {
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px transparent solid;
+  border-radius: 5px;
+  padding: 1.3rem 1.02rem;
+  font: inherit;
+  line-height: inherit;
+  background-color: white;
+  color: #333333;
+  border-color: #d9d9d9;
+  width: 50vw;
+  align-self: flex-end;
+}
+
+input:focus {
+  outline: none;
+  border-color: #caa98a;
+  box-shadow: 0 0 0 1px #caa98a;
+}
+
+#submit-button {
+  padding: 10px 5px 10px 5px;
+  width: 120px;
+}
+
+textarea {
+  border: 1px transparent solid;
+  border-radius: 5px;
+  padding: 1.3rem 1.02rem;
+  font: inherit;
+  line-height: inherit;
+  background-color: white;
+  color: #333333;
+  border-color: #d9d9d9;
+  width: 50vw;
+  align-self: flex-end;
+  height: 30vw;
+}

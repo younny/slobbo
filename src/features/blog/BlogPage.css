@@ -1,0 +1,113 @@
+#BlogPage {
+}
+
+#blog-top {
+  align-content: flex-start;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0);
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-end;
+  margin: 50px 20px 0px 20px;
+  width: 1280px;
+  max-width: calc(100% - 40px);
+}
+
+#blog-top-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 0px;
+  width: calc(67% - 80px);
+  max-width: calc(67% - 80px);
+}
+
+#blog-page-header {
+  font-size: 90px;
+  font-weight: 400;
+  height: auto;
+  line-height: 1;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+#blog-page-description {
+  font-size: 24px;
+  font-weight: 400;
+  height: auto;
+  line-height: 1.4;
+  margin: 0px 0px 35px 0px;
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+#blog-cat-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  border-top: 2px solid #000;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 40px 0px 40px 0px;
+  width: 1280px;
+  max-width: calc(100% - 40px);
+}
+
+#blog-cat-section {
+  align-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #000;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+  justify-content: flex-start;
+  margin: 0px 80px 0px 0px;
+  padding: 30px;
+  width: calc(33% - 80px);
+  max-width: calc(33% - 80px);
+}
+
+#cat {
+  font-size: 32px;
+  height: auto;
+  line-height: 1.4;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+
+#cat-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 30px 0px 20px 0px;
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+}
+
+#blog-article-section {
+  align-content: flex-start;
+  align-items: flex-start;
+  flex: none;
+  padding: 0px;
+  width: calc(67% - 80px);
+  max-width: calc(67% - 80px);
+}
